@@ -9,7 +9,3 @@ BEGIN { unshift @INC, "$FindBin::Bin/../lib" }
 
 use DBLoader;
 
-my $load = DBLoader->new;
-
-## Start Server ##
-$load->start;
